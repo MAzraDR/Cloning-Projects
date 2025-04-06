@@ -1,0 +1,153 @@
+:root {
+    --primary-color : #28CB8B;
+    --secondary-color : #263238;
+    --info-color : #2194F3;
+    --black-color : #263238;
+    --d-grey-color : #4D4D4D;
+    --grey-color : #717171;
+    --silver-color : #F5F7FA;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--silver-color);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+p {
+    font-size: 0.875;
+}
+
+.hero-section {
+    padding: 6rem 0;
+    background-color: var(--silver-color);
+}
+
+.hero-text {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero-text span {
+    color: var(--primary-color);
+}
+
+.hero-subtext {
+    font-size: 1rem;
+    color: var(--grey-color);
+}
+
+.dots {    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: var(--primary-color);
+    opacity: 30%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-active {
+    opacity: 100%;
+}
+
+.logos {
+    padding: 0 25px;
+}
+
+.clients-texts, .community-texts {
+    margin-bottom: 1rem;
+}
+
+.community-submain {
+    padding: 24px 32px;
+}
+
+.unlock {    
+    word-break: normal;
+    white-space: normal;
+    line-height: 1.5;
+} 
+
+h4 {
+    margin: 0;
+}
+
+.achievements {
+    background-color: var(--silver-color);
+    padding: 4rem 0;
+}
+
+.achievements img {    
+    margin-right: 1rem;
+}
+
+.achievements p {
+    margin-bottom: 0;
+}
+
+.achievements .row-1 {
+    margin-bottom: 40px;
+}
+
+.costumer h4 {
+    color: var(--primary-color);
+}
+
+.costumer button {
+    color: var(--primary-color) !important;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.upperside {
+    padding: 32px 0;
+    background-color: var(--silver-color);
+}
+
+.lowerside {
+    padding: 64px;
+    background-color: var(--black-color);
+}
+
+.logodescription {
+    gap: 40px;
+}
+
+.medlogo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--grey-color);
+}
+
+.footer-head {
+    margin-bottom: 24px;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
