@@ -11,11 +11,12 @@
 </head>
 
 <body>
-    <!-- Nav Section Starts -->
+    <!-- Nav Section Starts -->    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand fw-bolder" href="#"><svg width="35" height="24" viewBox="0 0 35 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+            <a class="navbar-brand fw-bolder" href="#">
+                <!-- Logo SVG -->
+                <svg width="35" height="24" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M18.7863 13.1341L13.3954 22.3669L8.00448 13.1341H18.7863ZM20.2305 12.3088H6.55444L13.3954 24L20.2305 12.3088Z"
                         fill="#263238" />
@@ -28,49 +29,46 @@
                     <path d="M22.2653 12.7935L28.1591 23.1978L34.1347 12.7935H22.2653Z" fill="#4CAF4F" />
                 </svg> NEXCENT
             </a>
+
+            <!-- Toggle button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">Service</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">Feature</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">Product</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">Testimonial</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">Feature</a></li>
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">Product</a></li>
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">Testimonial</a></li>
+                    <li class="nav-item pe-4"><a class="nav-link" href="#">FAQ</a></li>
                 </ul>
+
+                <!-- Login & Sign-up buttons -->
+                <div class="d-flex flex-sm-column flex-lg-row">
+                    <button type="button" class="btn text-success me-lg-2">Login</button>
+                    <button type="button" class="btn btn-outline-success">Sign-up</button>
+                </div>
             </div>
-            <button type="button" class="btn text-success me-2">Login</button>
-            <button type="button" class="btn btn-outline-success">Sign-up</button>
         </div>
     </nav>
+
     <!-- Nav Section Ends -->
 
     <!-- Hero Secrion Starts -->
     <section class="hero-section">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-8">
+                <div class="col-lg-8 col-6">
                     <h1 class="hero-text">Lesson and insights <br> <span>from 8 years</span></h1>
                     <p class="hero-subtext">Where to grow your business as a photographer: site or social media?</p>
                     <button type="button" class="btn btn-success">Register</button>
                 </div>
-                <div class="col-4">
-                    <img src="./Asset/hero-Illustration.svg" alt="">
+                <div class="col-lg-4 col-6">
+                    <img src="./Asset/hero-Illustration.svg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="dots">
@@ -90,13 +88,13 @@
                 <p class="clients-subtexts">We have been working with some Fortune 500+ clients</p>
             </div>
             <div class="logos d-flex justify-content-between">
-                <img src="./Asset/Logo.svg" alt="">
-                <img src="./Asset/Logo-1.svg" alt="">
-                <img src="./Asset/Logo-2.svg" alt="">
-                <img src="./Asset/Logo-3.svg" alt="">
-                <img src="./Asset/Logo-4.svg" alt="">
-                <img src="./Asset/Logo-5.svg" alt="">
-                <img src="./Asset/Logo-6.svg" alt="">
+                <img src="./Asset/Logo.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-1.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-2.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-3.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-4.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-5.svg" alt="" class="img-fluid">
+                <img src="./Asset/Logo-6.svg" alt="" class="img-fluid">
             </div>
         </div>
     </section>
@@ -110,19 +108,19 @@
                 <p class="community-subtexts">Who is Nextcent suitable for?</p>
                 <div class="row d-flex justify-content-between">
                     <div class="community-submain col-3 text-center">
-                        <img src="./Asset/Icon.svg" alt="">
+                        <img src="./Asset/Icon.svg" alt="" class="img-fluid">
                         <h3>Membership Organisations</h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
                     </div>
                     <div class="community-submain col-3 text-center">
-                        <img src="./Asset/Icon-1.svg" alt="">
+                        <img src="./Asset/Icon-1.svg" alt="" class="img-fluid">
                         <h3>National Associations</h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
                     </div>
                     <div class="community-submain col-3 text-center">
-                        <img src="./Asset/Icon-2.svg" alt="">
+                        <img src="./Asset/Icon-2.svg" alt="" class="img-fluid">
                         <h3>Clubs And Groups</h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
@@ -138,7 +136,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-4">
-                    <img src="./Asset/unlock-illust.svg" alt="">
+                    <img src="./Asset/unlock-illust.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col-6 offset-1">
                     <h3>The unseen of spending three years at Pixelgrade</h3>
@@ -164,14 +162,14 @@
                 <div class="col">
                     <div class="row row-1">
                         <div class="col d-flex">
-                            <img src="./Asset/Iconachievements.svg" alt="">
+                            <img src="./Asset/Iconachievements.svg" alt="" class="img-fluid">
                             <div class="details">
                                 <h4>2,245,341</h4>
                                 <p>Members</p>
                             </div>
                         </div>
                         <div class="col d-flex">
-                            <img src="./Asset/Iconachievements-1.svg" alt="">
+                            <img src="./Asset/Iconachievements-1.svg" alt="" class="img-fluid">
                             <div class="details">
                                 <h4>46,328</h4>
                                 <p>Clubs</p>
@@ -180,14 +178,14 @@
                     </div>
                     <div class="row row-2">
                         <div class="col d-flex">
-                            <img src="./Asset/Iconachievements-2.svg" alt="">
+                            <img src="./Asset/Iconachievements-2.svg" alt="" class="img-fluid">
                             <div class="details">
                                 <h4>828,867</h4>
                                 <p>Event Bookings</p>
                             </div>
                         </div>
                         <div class="col d-flex">
-                            <img src="./Asset/Iconachievements-3.svg" alt="">
+                            <img src="./Asset/Iconachievements-3.svg" alt="" class="img-fluid">
                             <div class="details">
                                 <h4>1,926,436</h4>
                                 <p>Payments</p>
@@ -205,7 +203,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col">
-                    <img src="./Asset/mobile-phone-illust.svg" alt="">
+                    <img src="./Asset/mobile-phone-illust.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col">
                     <h3>How to design your site footer like we did</h3>
@@ -227,7 +225,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="./Asset/114123607_p4.png" alt="" width="500px" height="auto">
+                    <img src="./Asset/114123607_p4.png" alt="" width="500px" height="auto" class="img-fluid">
                 </div>
                 <div class="col">
                     <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
@@ -240,13 +238,13 @@
                     </p>
                     <h4>Tim Smith</h4>
                     <p>British Dragon Boat Racing Association</p>
-                    <div class="logodetails d-flex justify-content-between">
-                        <img src="./Asset/Logo-1.svg" alt="">
-                        <img src="./Asset/Logo-2.svg" alt="">
-                        <img src="./Asset/Logo-3.svg" alt="">
-                        <img src="./Asset/Logo-4.svg" alt="">
-                        <img src="./Asset/Logo-5.svg" alt="">
-                        <img src="./Asset/Logo-6.svg" alt="">
+                    <div class="logodetails d-flex justify-content-between flex-wrap">
+                        <img src="./Asset/Logo-1.svg" alt="" class="img-fluid">
+                        <img src="./Asset/Logo-2.svg" alt="" class="img-fluid">
+                        <img src="./Asset/Logo-3.svg" alt="" class="img-fluid">
+                        <img src="./Asset/Logo-4.svg" alt="" class="img-fluid">
+                        <img src="./Asset/Logo-5.svg" alt="" class="img-fluid">
+                        <img src="./Asset/Logo-6.svg" alt="" class="img-fluid">
                         <button type="button" class="btn text-success">Meet All Costumer →</button>
                     </div>
                 </div>
@@ -257,7 +255,7 @@
 
     <!-- Footer Section Starts -->
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="upperside text-center">
                 <h1>Pellentesque suscipit <br>fringilla libero eu.</h1>
                 <button type="button" class="btn btn-success">Get a demo →</button>

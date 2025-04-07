@@ -144,10 +144,100 @@ footer {
     background-color: var(--grey-color);
 }
 
+footer .container-fluid {
+    padding: 0;
+}
+
 .footer-head {
     margin-bottom: 24px;
 }
 
 footer ul li {
     margin-bottom: 12px;
+}
+
+/* ========== RESPONSIVE FONT SIZES ========== */
+
+@media (max-width: 1200px) {
+    .hero-text {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .hero-subtext,
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-text {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    .hero-subtext,
+    p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtext,
+    p {
+        font-size: 0.8rem;
+    }
+
+    .community-submain {
+        padding: 16px;
+    }
+
+    .lowerside {
+        padding: 48px 32px;
+    }
+
+    .upperside {
+        padding: 24px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .hero-subtext,
+    p {
+        font-size: 0.75rem;
+    }
+
+    .lowerside {
+        padding: 32px 16px;
+    }
+
+    .community-submain {
+        padding: 12px;
+    }
+
+    .logodescription {
+        gap: 24px;
+    }
 }
